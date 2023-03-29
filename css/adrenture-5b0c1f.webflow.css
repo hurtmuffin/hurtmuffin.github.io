@@ -50,6 +50,12 @@
   border: 1px solid #000;
 }
 
+.div-block-4.mainmodd {
+  max-width: 1800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   display: flex;
   justify-content: center;
