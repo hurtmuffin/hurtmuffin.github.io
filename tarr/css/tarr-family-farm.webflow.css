@@ -113,7 +113,7 @@ a {
 }
 
 .lynx-navbar {
-  background-color: rgba(1, 46, 90, .95);
+  background-color: #012e5a;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -180,7 +180,7 @@ a {
 
 .lynx-block-hero-large {
   width: 50%;
-  background-color: rgba(1, 46, 90, .78);
+  background-color: rgba(1, 46, 90, .75);
   border: 0 solid rgba(0, 64, 35, .2);
   border-left: 35px solid rgba(0, 65, 129, .45);
   border-radius: 30px 30px 360px;
@@ -1338,9 +1338,10 @@ a {
 
   .lynx-block-hero-large {
     width: 100%;
+    background-color: #012e5a;
     border-left-width: 0;
-    border-radius: 5px;
-    margin-bottom: -370px;
+    border-radius: 20px 20px 5px 5px;
+    margin-bottom: -350px;
     margin-left: 0;
     padding: 25px 30px 50px 20px;
   }
