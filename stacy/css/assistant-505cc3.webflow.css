@@ -24,6 +24,7 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: Bitter, serif;
   font-size: 2rem;
   font-weight: 300;
   line-height: 2.25rem;
@@ -185,6 +186,10 @@ p {
   padding-right: 3rem;
 }
 
+.align-right.bg-sticky-scroll-white {
+  border-right-color: rgba(31, 64, 63, .2);
+}
+
 .body_image {
   max-height: 350px;
   min-width: 100%;
@@ -276,6 +281,7 @@ p {
 .body_para_text.pricing_body_para_disclaimer {
   color: rgba(31, 64, 63, .8);
   text-align: center;
+  font-size: .9rem;
 }
 
 .body_para_text.white-font {
@@ -975,6 +981,12 @@ p {
   flex-direction: column;
   align-items: stretch;
   display: flex;
+}
+
+.space-half {
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 @media screen and (max-width: 991px) {
