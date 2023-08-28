@@ -127,7 +127,7 @@ p {
   text-transform: capitalize;
   justify-content: space-between;
   margin-left: 0;
-  padding: .8rem .5rem .8rem 1rem;
+  padding: .8rem 1rem;
   font-family: Bitter, serif;
   font-size: 1.4rem;
   font-weight: 300;
@@ -594,6 +594,15 @@ p {
   line-height: 24px;
 }
 
+.pricing-period.hide {
+  opacity: 0;
+}
+
+.pricing-period.value-pop {
+  color: rgba(23, 106, 73, .63);
+  font-size: .9rem;
+}
+
 .pricing-icon-white {
   width: 24px;
   height: 24px;
@@ -999,6 +1008,10 @@ p {
     max-height: 275px;
   }
 
+  .body_h1.body_lead_style {
+    font-size: 1.7rem;
+  }
+
   .pricing-grid-large {
     max-width: 540px;
     grid-template-columns: 1fr;
@@ -1049,6 +1062,10 @@ p {
 
   .footer-social-block-three {
     margin-top: 40px;
+  }
+
+  .vba-wrapper {
+    padding-right: 1rem;
   }
 
   .navbar {
@@ -1108,7 +1125,7 @@ p {
   }
 
   .body_h1.body_lead_style {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .services_type {
@@ -1248,6 +1265,10 @@ p {
   .align-right.bg-sticky-scroll-white {
     position: static;
     top: 100px;
+  }
+
+  .body_h1.body_lead_style {
+    font-size: 2.1rem;
   }
 
   .services_type.white-side-line {
